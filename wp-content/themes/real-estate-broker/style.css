@@ -1,0 +1,268 @@
+/*
+Theme Name: Real Estate Broker
+Theme URI: https://www.buywptemplates.com/themes/free-broker-wordpress-theme/
+Author: Buywptemplates
+Author URI: https://www.buywptemplates.com
+Description: Real Estate Broker is a fine WordPress theme with a sophisticated design based on the Bootstrap framework and brings a conducive layout for estate brokers, real estate businesses, realtors, property agents, rental websites, apartment, and home booking brokers, hotel and accommodation, property listing websites, and relevant business. With a flexible and elegant design giving you plenty of customization options, you will be able to use it as a multipurpose theme. The clean and user-friendly interface of this theme will make things easy and let you create your own website without bothering about the coding stuff. To make your appearance more professional, this theme comes with a beautiful banner and wonderful sections that include Team sections as well as the Testimonial section. The Call to Action Button (CTA) has a huge impact on the conversions and also makes your overall design look more attractive and interactive. Social media icons of this theme will let you share your blogs and promote your property on various social media platforms. The secure and clean code results in a lightweight design and proper functioning of your website even in case of high traffic flows. You will get a mobile-friendly design making the website easily accessible through mobile phones and its WPML and RTL compatibility makes the theme translation ready. View full demo here: https://www.buywptemplates.com/bwt-real-estate-broker-pro/
+Requires at least: 5.0
+Tested up to: 6.2
+Requires PHP: 7.2
+Version: 0.3.1 
+license: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: real-estate-broker
+Template: real-estate-realtor
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, flexible-header, wide-blocks, block-styles, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, post-formats, full-width-template, theme-options, threaded-comments, translation-ready, rtl-language-support, blog, e-commerce, portfolio
+*/
+
+.topbar {
+	border: 0;
+}
+.page-template-home-page .icon-color {
+	font-size: 18px;
+}
+.page-template-home-page .icon-color, .primary-navigation ul ul a, #site-navigation ul ul a, .copyright-wrapper p, .postbtn a i {
+	color: #fff;
+}
+.page-template-home-page #header {
+	padding: 0;
+}
+#header {
+	padding-bottom: 10px;
+}
+.menu-header {
+	border-radius: 10px;
+    background: #fff;
+}
+#site-navigation li a, .logo a, .logo p a, .logo p, #site-navigation li a:hover, .listing-btn a, .footer-wp input[type="search"], #sidebar input[type="search"] {
+	color: #000;
+}
+.listing-btn a, #scrollbutton i, .postbtn a, .woocommerce span.onsale, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .woocommerce a.added_to_cart {
+	background: #18d5eb;
+	color: #fff;
+	box-shadow: 0 0 0 4px rgb(25 214 235 / 30%);
+}
+.primary-navigation ul li {
+	padding: 0 12px;
+}
+.primary-navigation ul li a {
+	position: relative;
+	padding: 12px 0;
+}
+.primary-navigation ul li a:before {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #18d5eb;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+}
+.primary-navigation ul li a:hover:before {
+	opacity: 1;
+}
+.primary-navigation ul ul li {
+	padding: 0;
+}
+.primary-navigation ul ul a {
+	padding: 15px;
+}
+.primary-navigation ul ul a:before{
+	display: none;
+}
+#sidebar ul li:before, .primary-navigation ul ul a:hover, #header, .pagination a:hover, #sidebar .tagcloud a:hover, .footer-wp .tagcloud a:hover, #sidebar input[type="submit"]:hover, .nav-next a:hover, .nav-previous a:hover, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, input[type="submit"], #popular-properties .tablinks.active, .footer-wp h3:after, .footer-wp input[type="submit"], .footer-wp button, #sidebar button, .copyright-wrapper, .blog-section h2:after, .postbtn a, .pagination .current, #sidebar h3:after, #comments a.comment-reply-link, #comments input[type="submit"].submit, nav.woocommerce-MyAccount-navigation ul li, .metabox i:before {
+	background: #18d5eb;
+	margin: 10px;
+}
+.nav-next a:hover, .nav-previous a:hover{
+	margin: 15px 0;
+}
+#sidebar ul li a:hover, .footer-wp h3, .nav-previous a:hover, .nav-next a:hover, #sidebar .textwidget p a:hover, .footer-wp .textwidget p a, .footer-wp a.rsswidget, .footer-wp li a:hover, #sidebar .custom_read_more a:hover, .footer-wp .custom_read_more a, .navigation.post-navigation a:hover, .metabox a:hover, .blog-section h2 a:hover, td.product-name a:hover, a {
+	color: #18d5eb;
+}
+.entry-date:hover i, .entry-date:hover a, .entry-author:hover i, .entry-author:hover a{
+	color: #18d5eb !important;
+}
+.heading-box, #scrollbutton i{
+	border-color: #18d5eb;
+}
+.postbtn a, .woocommerce ul.products li.product .button, .woocommerce .coupon button.button, a.checkout-button.button.alt.wc-forward, #sidebar .widget.woocommerce.widget_product_search button, #sidebar input[type="submit"]:hover, .pagination .current, .pagination a:hover {
+	box-shadow: 0 0 0 4px rgb(25 214 235 / 30%) !important;
+}
+#slider {
+	background-color: #000;
+	position: relative;
+}
+#slider .carousel-caption {
+	left: 25%;
+	right: 25%;
+}
+#slider .searh-outer-box {
+	position: absolute;
+	bottom: -40px;
+	z-index: 99;
+	left: 25%;
+	right: 25%;
+}
+.search-box form {
+	padding: 20px;
+	box-shadow: 0 3px 5px #ddd;
+	border-radius: 10px;
+}
+#sidebar .widget.woocommerce.widget_product_search button{
+	color: #fff;
+}
+#sidebar form.wp-block-search {
+    padding: 12px 15px 15px 15px;
+}
+/*Location Section*/
+.location-box img {
+	border-radius: 10px;
+}
+.location-box {
+	position: relative;
+}
+.location-content {
+    padding: 10px;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(0, #18d5eb 10%, transparent 85%);
+}
+.location-content h4 {
+	font-size: 22px;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+.location-content h4 a, .location-content span {
+	color: #fff;
+}
+.location-content span {
+	display: block;
+	font-size: 14px;
+	font-weight: 500;
+}
+.location-content span:first-child {
+	margin-bottom: 10px;
+}
+.location-box a.read-btn {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    display: inline-block;
+    background: #fff;
+    padding: 8px 11px;
+    border-radius: 5px;
+    opacity: 0;
+}
+.location-box:hover a.read-btn {
+	opacity: 1;
+}
+#location-section .owl-carousel .owl-nav {
+	display: block;
+}
+#location-section .owl-nav i {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #ddd;
+  width: 45px;
+  height: 45px;
+  padding: 14px 0;
+  font-size: 20px;
+}
+#location-section .owl-nav button:hover i {
+	background: #18d5eb;
+	color: #fff;
+}
+#location-section button.owl-prev, #location-section button.owl-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -25px;
+}
+#location-section button.owl-next{
+  right: -25px;
+  left: auto;
+}
+#blog_sec input[type="search"]{
+	border: 1px solid #e6f0fa;
+	color: #000 !important;
+}
+.footer-wp .woocommerce a.button:hover{
+	color: #000 !important;
+}
+/* Breadcrumb */
+.bradcrumbs a{
+  background:#18d5eb;
+  color: #000;
+}
+.bradcrumbs span{
+	background:#18d5eb;
+	color: #000;
+}
+.bradcrumbs span:hover{
+  background:#384260;
+  color: #000;
+}
+.category a:hover {
+  color: #18d5eb;
+}
+.tags a:hover {
+  background: #18d5eb;
+}
+@media screen and (max-width: 1000px) {
+	.toggle-menu i {
+		background: #18d5eb;
+		color: #fff;
+	}
+	.primary-navigation ul li a {
+    padding: 10px 25px !important;
+  }
+	#header .logo {
+		text-align: left;
+	}
+	.primary-navigation ul li {
+		padding: 0;
+	}
+	.primary-navigation ul li a:before {
+		display: none;
+	}
+	.primary-navigation a:focus, .page-template-home-page .menu-header a:focus {
+		border-color: #384260 !important;
+	}
+	#slider h1 {
+		display: block;
+	}
+}
+@media screen and (max-width: 999px) and (min-width: 720px) {
+	.page-template-home-page #header {
+		background: #18d5eb;
+		padding-bottom: 10px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.page-template-home-page #header {
+		background: #18d5eb;
+		padding-bottom: 10px;
+	}
+	#location-section button.owl-prev {
+		left: 0;
+	}
+	#location-section button.owl-next {
+		right: 0;
+		left: auto;
+	}
+	#slider .searh-outer-box {
+		position: sticky;
+	}
+	#slider .inner_carousel h1 {
+		font-size: 20px;
+	}
+	#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+		padding: 5px 10px;
+	}
+}

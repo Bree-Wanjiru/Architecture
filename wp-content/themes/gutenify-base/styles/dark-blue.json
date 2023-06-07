@@ -1,0 +1,264 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Dark Blue Scheme",
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"duotone": [
+				{
+					"colors": [
+						"#000000",
+						"#ffffff"
+					],
+					"name": "Foreground and background",
+					"slug": "foreground-and-background"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#ffe2c7"
+					],
+					"name": "Foreground and secondary",
+					"slug": "foreground-and-secondary"
+				},
+				{
+					"colors": [
+						"#000000",
+						"#f6f6f6"
+					],
+					"name": "Foreground and tertiary",
+					"slug": "foreground-and-tertiary"
+				},
+				{
+					"colors": [
+						"#32535C",
+						"#ffffff"
+					],
+					"name": "Primary and background",
+					"slug": "primary-and-background"
+				},
+				{
+					"colors": [
+						"#32535C",
+						"#ffe2c7"
+					],
+					"name": "Primary and secondary",
+					"slug": "primary-and-secondary"
+				},
+				{
+					"colors": [
+						"#32535C",
+						"#f6f6f6"
+					],
+					"name": "Primary and tertiary",
+					"slug": "primary-and-tertiary"
+				}
+			],
+			"gradients": [
+				{
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--tertiary) 100%)",
+					"name": "Vertical secondary to tertiary",
+					"slug": "vertical-secondary-to-tertiary"
+				},
+				{
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--secondary) 0%,var(--wp--preset--color--background) 100%)",
+					"name": "Vertical secondary to background",
+					"slug": "vertical-secondary-to-background"
+				},
+				{
+					"gradient": "linear-gradient(to bottom,var(--wp--preset--color--background) 0%,var(--wp--preset--color--secondary) 100%)",
+					"name": "Vertical background to secondary",
+					"slug": "vertical-background-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--background-secondary) 70%,var(--wp--preset--color--background-secondary-dark) 70%)",
+					"name": "Secondary background to Secondary dark background",
+					"slug": "vertical-secondary-background-to-secondary-dark-background"
+				},
+				{
+					"gradient": "linear-gradient(90deg,var(--wp--preset--color--background-secondary-dark) 50%,var(--wp--preset--color--background-secondary) 50%)",
+					"name": "Secondary background dark to Secondary  background",
+					"slug": "vertical-secondary-background-dark-to-secondary-background"
+				},
+				{
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--primary) 0%,var(--wp--preset--color--foreground) 100%)",
+					"name": "Diagonal primary to foreground",
+					"slug": "diagonal-primary-to-foreground"
+				},
+				{
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
+					"name": "Diagonal secondary to background",
+					"slug": "diagonal-secondary-to-background"
+				},
+				{
+					"gradient": "linear-gradient(to bottom left,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
+					"name": "Diagonal secondary to background left",
+					"slug": "diagonal-secondary-to-background-left"
+				},
+				{
+					"gradient": "linear-gradient(to top right,var(--wp--preset--color--secondary) 50%,var(--wp--preset--color--background) 50%)",
+					"name": "Diagonal secondary to background right",
+					"slug": "diagonal-secondary-to-background-right"
+				},
+				{
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--secondary) 50%)",
+					"name": "Diagonal background to secondary",
+					"slug": "diagonal-background-to-secondary"
+				},
+				{
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--tertiary) 50%,var(--wp--preset--color--background) 50%)",
+					"name": "Diagonal tertiary to background",
+					"slug": "diagonal-tertiary-to-background"
+				},
+				{
+					"gradient": "linear-gradient(to bottom right,var(--wp--preset--color--background) 50%,var(--wp--preset--color--tertiary) 50%)",
+					"name": "Diagonal background to tertiary",
+					"slug": "diagonal-background-to-tertiary"
+				}
+			],
+			"palette": [
+				{
+					"color": "#fff",
+					"name": "Foreground",
+					"slug": "foreground"
+				},
+				{
+					"color": "#031728",
+					"name": "Background",
+					"slug": "background"
+				},
+				{
+					"color": "#0da88c",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#165153",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#fcd576",
+					"name": "Button Primary",
+					"slug": "button-primary"
+				},
+				{
+					"color": "#70E892",
+					"name": "Button Secondary",
+					"slug": "button-secondary"
+				},
+				{
+					"color": "#041c2d",
+					"name": "Secondary Background",
+					"slug": "background-secondary"
+				},
+				{
+					"color": "#031728",
+					"name": "Secondary dark Background",
+					"slug": "background-secondary-dark"
+				},
+				{
+					"color": "#041c2d",
+					"name": "Footer Column Background",
+					"slug": "footer-column-background"
+				},
+				{
+					"color": "#031728",
+					"name": "Footer Copy Right Background",
+					"slug": "footer-copy-right-background"
+				},
+				{
+					"color": "#f7f7f7",
+					"name": "Body Text",
+					"slug": "body-text"
+				},
+				{
+					"color": "#10172b",
+					"name": "Text Link",
+					"slug": "text-link"
+				},
+				{
+					"color": "#47b2ab",
+					"name": "Border",
+					"slug": "border"
+				},
+				{
+					"color": "#fff2ec",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#fafafa",
+					"name": "Input Field",
+					"slug": "input-field"
+				},
+				{
+					"color": "#777",
+					"name": "Boulder",
+					"slug": "boulder"
+				},
+				{
+					"color": "#7d6043",
+					"name": "coffee",
+					"slug": "coffee"
+				},
+				{
+					"color": "#25d6a2",
+					"name": "Cyan",
+					"slug": "cyan"
+				},
+				{
+					"color": "#1D1634",
+					"name": "Dark Blue",
+					"slug": "dark-blue"
+				},
+				{
+					"color": "#30b4da",
+					"name": "Sky Blue",
+					"slug": "sky-blue"
+				},
+				{
+					"color": "#0fb36c",
+					"name": "Dark Green",
+					"slug": "dark-green"
+				},
+				{
+					"color": "#6ba518",
+					"name": "Lite Green",
+					"slug": "lite-green"
+				},
+				{
+					"color": "#c74a73",
+					"name": "Purple",
+					"slug": "purple"
+				},
+				{
+					"color": "#9261c6",
+					"name": "Dark Purple",
+					"slug": "dark-purple"
+				},
+				{
+					"color": "#f78550",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "#f9556d",
+					"name": "Lite Red",
+					"slug": "lite-red"
+				},
+				{
+					"color": "#27808c",
+					"name": "Hexadecimal",
+					"slug": "hexadecimal"
+				},
+				{
+					"color": "#ff6b98",
+					"name": "Pink",
+					"slug": "pink"
+				}
+			]
+		}
+	}
+}
